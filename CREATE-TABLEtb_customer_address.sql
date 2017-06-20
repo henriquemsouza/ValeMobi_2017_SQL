@@ -9,5 +9,5 @@ id_customer integer(11),
 cd_address_type char(1),
 
 FOREIGN KEY (id_customer) REFERENCES tb_customer (id_customer),
-FOREIGN KEY (cd_addres_type)REFERENCES dm_adress_type(cd_addres_type)
+FOREIGN KEY (cd_addres_type)REFERENCES dm_address_type(cd_addres_type)
 );
