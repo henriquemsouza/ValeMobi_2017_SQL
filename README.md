@@ -24,3 +24,10 @@
 **4- Dado um CPF,qual seria o passo a passo para excluir um cliente da nossa base de dados?
 
 4-R-  DELETE FROM  tb_customer WHERE cpf_cnpj='cpf que foi dado';
+
+
+================================================================================================================================
+
+# Criando e  iniciando  tabela
+
+-nos  arquivos CREATE-TABLEtb_customer_address.sql e  CREATE_TABLEdm_address_type.sql  e CREATE_TABLEtb_customer .sql e dm_address_typeInsertValues.sql
